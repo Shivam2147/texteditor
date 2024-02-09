@@ -39,7 +39,7 @@ export default function Formtext(props) {
     <div className='mb-3'>
     <textarea className='form-control' value={text} onChange={onhandle} id='exampleFormControlTextarea1' rows='8'></textarea>
     </div>
-    <div className='d-flex gap-2'>
+    <div className='d-flex flex-wrap gap-2 container'>
     <button className='btn btn-primary' onClick={onhandleUp}>UPPER CASE</button>
     <button className='btn btn-primary'onClick={onhandlelo}>LOWER CASE</button>
     <button className='btn btn-primary'onClick={onhandclear}>CLEAR</button>
